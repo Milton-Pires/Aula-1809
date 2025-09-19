@@ -18,7 +18,8 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:id="@+id/cdvPrimeiro">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -68,7 +69,7 @@
                 android:layout_marginRight="5dp"
                 android:backgroundTint="#10FFFFFF"
                 app:cornerRadius="20dp"
-                app:icon="@drawable/baseline_bookmark">
+                android:src="@drawable/baseline_bookmark">
 
             </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
@@ -129,7 +130,8 @@
                 android:layout_marginRight="5dp"
                 android:backgroundTint="#10FFFFFF"
                 app:cornerRadius="20dp"
-                app:icon="@drawable/baseline_bookmark">
+                android:src="@drawable/baseline_bookmark"
+                android:tint="#ffff">
 
             </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
@@ -190,7 +192,7 @@
                 android:layout_marginRight="5dp"
                 android:backgroundTint="#10FFFFFF"
                 app:cornerRadius="20dp"
-                app:icon="@drawable/baseline_bookmark">
+                android:src="@drawable/baseline_bookmark">
 
             </com.google.android.material.floatingactionbutton.FloatingActionButton>
 
